@@ -3,10 +3,10 @@
 using namespace std;
 
 // Функція для визначення факторіалу
-int factorial(int i)
+int factorial(int i)  
 {
     if (i == 0) return 1;
-    else return i * factorial(i - 1);
+    else return i * factorial(i - 1); 
 }
 
 int main()
